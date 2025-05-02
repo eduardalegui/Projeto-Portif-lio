@@ -4,8 +4,15 @@
   font-family: Inria_Sans;
   src: url(../src/fonte/InriaSans-Regular.ttf);
 }
+
+@font-face {
+  font-family: Inria_Sans_Bold;
+  src: url(../src/fonte/InriaSans-Bold.ttf);
+} 
+
 @theme{
   --font-Inria_Sans: Inria_Sans;
+  --font-Inria_Sans_Bold: Inria_Sans_Bold;
   --color-LARANJA:#FF5100;
   --color-FUNDO:#FECA54;
   --color-ROSADO:#D24517;

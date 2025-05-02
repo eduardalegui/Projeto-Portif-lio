@@ -1,7 +1,7 @@
 function Barra1() {
     return(
         <>
-            <div className= "h-10 w-46 bg-orange-600"></div>
+            <div className= "h-8 w-200 bg-orange-600"></div>
         </>
     );
 }

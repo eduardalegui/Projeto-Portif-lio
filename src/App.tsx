@@ -1,17 +1,23 @@
 
 import { useState } from 'react'
 import Barra1 from './componentes/Barra1'
+import Cabeçalho from './componentes/cabeçalho'
 import './index.css'
 
 function App() {
   const [count, setCount] = useState(0)
-
+  
   return (
     <>
+    <body className='bg-FUNDO'>
+      
+      <Cabeçalho/>
       <Barra1/>
-      <p className='text-LETRA'>OIEe</p>
+      <p className='font-Inria_Sans text-LETRA'>OIE oie</p>
+      <p className='font-Inria_Sans_Bold text-LETRA'>OIE oie</p>
+    
+    </body>
     </>
-
   )
 }
 
