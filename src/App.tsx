@@ -1,6 +1,7 @@
 
 import { useState } from 'react'
 import Barra1 from './componentes/Barra1'
+import './index.css'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -8,7 +9,9 @@ function App() {
   return (
     <>
       <Barra1/>
+      <p className='text-LETRA'>OIEe</p>
     </>
+
   )
 }
 

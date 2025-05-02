@@ -1,6 +1,11 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: Inria_Sans;
+  src: url(../src/fonte/InriaSans-Regular.ttf);
+}
 @theme{
+  --font-Inria_Sans: Inria_Sans;
   --color-LARANJA:#FF5100;
   --color-FUNDO:#FECA54;
   --color-ROSADO:#D24517;
