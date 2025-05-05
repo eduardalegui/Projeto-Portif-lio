@@ -18,3 +18,7 @@
   --color-ROSADO:#D24517;
   --color-LETRA: #5E2608;
 }
+
+body {
+  background-color: var(--color-FUNDO);
+}

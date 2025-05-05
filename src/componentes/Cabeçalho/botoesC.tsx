@@ -2,7 +2,7 @@ import linkedin from '../imagem/linkedin-modo-claro.png';
 import mail from '../imagem/mail-modo-claro.png';
 import moon from '../imagem/moon-modo-claro.png';
 
-function Cabeçalho() {
+function botoesC() {
     return(
         <>
         <div className='flex flex-row h-10 w-10 mt-5 mb-5 ml-5 mr-5'>
@@ -13,4 +13,4 @@ function Cabeçalho() {
         </>
     );
 }
-export default Cabeçalho;
+export default botoesC;

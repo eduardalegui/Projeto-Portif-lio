@@ -1,22 +1,20 @@
-
-import { useState } from 'react'
-import Barra1 from './componentes/Barra1'
-import Cabeçalho from './componentes/cabeçalho'
+import BarraL from './componentes/Cabeçalho/barraL'
+import BotoesC from './componentes/Cabeçalho/botoesC'
 import './index.css'
 
 function App() {
-  const [count, setCount] = useState(0)
   
   return (
     <>
-    <body className='bg-FUNDO'>
-      
-      <Cabeçalho/>
-      <Barra1/>
-      <p className='font-Inria_Sans text-LETRA'>OIE oie</p>
-      <p className='font-Inria_Sans_Bold text-LETRA'>OIE oie</p>
-    
-    </body>
+      <div id='Cabeçalho' className='relative'>
+        <div className='absolute top-0 left-0 right-0 bottom-0'>
+        <BarraL/>
+        </div>
+        
+        
+
+        
+      </div>
     </>
   )
 }
