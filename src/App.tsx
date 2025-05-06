@@ -1,4 +1,6 @@
 import BarraL from './componentes/Cabeçalho/barraL'
+import BarraRI from './componentes/Cabeçalho/barraRI'
+import BarraRII from './componentes/Cabeçalho/barraRII'
 import BotoesC from './componentes/Cabeçalho/botoesC'
 import './index.css'
 
@@ -7,35 +9,45 @@ function App() {
   return (
     <>
       <div id='Cabeçalho' className='relative'>
-
-        <div className='absolute top-[20px] left-[40px] '>
+        <div className='absolute top-[40px] left-[40px] '>
           <BotoesC/>
         </div> 
 
-        <div className='absolute top-[80px] left-[0px]'>
+        <div className='absolute top-[0px] right-[30px] '>
+          <BarraRI/>
+        </div>
+
+        <div className='absolute top-[120px] left-[0px]'>
           <BarraL/>
         </div>  
 
-        <div className='absolute text-center top-[160px] left-[0px] right-[0px] text-LETRA'>
-
-          <div className='text-5xl font-Inria_Sans '>
+        <div className='absolute text-center top-[200px] left-[0px] right-[0px] text-LETRA'>
+          <div className='text-[55px] font-Inria_Sans '>
             <p>EDUARDA PFITSCHER</p> 
           </div>
 
-          <div className='text-4xl font-Inria_Sans_Bold mt-[35px] '> 
+          <div className='text-[35px] font-Inria_Sans_Bold mt-[10px] '> 
             <p>Front-end Dev</p> 
           </div>
-
-          <div className='text-3xl font-Inria_Sans mt-[1px] '> 
-            <p>"Construo soluções em código com a mesma clareza com que compartilho ideias."</p> 
+          
+          <div className='text-[30px] font-Inria_Sans  '> 
+            <p>"Construo soluções em código com a mesma clareza com </p> 
           </div>
-
         </div>  
 
-        <div className='absolute top-[360px] right-[0px]'>
+        <div className='absolute text-center top-[380px] left-[0px] right-[0px] text-LETRA'>
+          <div className='text-[30px] font-Inria_Sans'> 
+            <p>que compartilho ideias."</p> 
+          </div>
+        </div>
+
+        <div className='absolute top-[465px] right-[0px]'>
           <BarraL/>
         </div>
 
+        <div className='absolute top-[385px] left-[30px] '>
+          <BarraRII/>
+        </div>
       </div>
     </>
   )

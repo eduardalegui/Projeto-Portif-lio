@@ -6,9 +6,9 @@ function botoesC() {
     return(
         <>
         <div className='flex flex-row'>
-            <img className='h-[40px] w-[40px] mr-[100px]' src={moon}></img>
-            <img className='h-[40px] w-[40px] mr-[10px]' src={mail}></img>
-            <img className='h-[40px] w-[40px] ml-[10px]' src={linkedin}></img>
+            <img className='h-[40px] w-[40px] mr-[80px]' src={moon}></img>
+            <img className='h-[40px] w-[40px] mr-[20px]' src={mail}></img>
+            <img className='h-[40px] w-[40px] ml-[20px]' src={linkedin}></img>
         </div>
         </>
     );
