@@ -7,13 +7,19 @@ function App() {
   return (
     <>
       <div id='Cabeçalho' className='relative'>
-        <div className='absolute top-0 left-0 right-0 bottom-0'>
-        <BarraL/>
-        </div>
-        
-        
 
-        
+        <div className='absolute top-[20px] left-[20px] mb-[20px]'>
+          <BotoesC/>
+        </div> 
+
+        <div className='absolute top-[80px] left-[0px]'>
+          <BarraL/>
+        </div>
+
+        <div className='absolute top-[260px] right-[0px]'>
+          <BarraL/>
+        </div>
+
       </div>
     </>
   )
@@ -21,7 +27,7 @@ function App() {
 
 export default App
 
-
+//<div className='absolute top-0 left-0 right-0 bottom-0'>
 
 
 
