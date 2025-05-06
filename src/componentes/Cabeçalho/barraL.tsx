@@ -1,7 +1,7 @@
 function barraL(){	
     return(
         <>
-            <div className='h-[30px] w-[500px] bg-orange-600' ></div>
+            <div className='h-[40px] w-[550px] bg-LARANJA' ></div>
         </>
     );
 }

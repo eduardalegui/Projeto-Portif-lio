@@ -6,11 +6,11 @@ function botoesC() {
     return(
         <>
         <div className='flex flex-row'>
-            <img className='h-[40px] w-[40px] mr-[60px]' src={moon}></img>
-            <img className='h-[40px] w-[40px] mr-[5px]' src={mail}></img>
-            <img className='h-[40px] w-[40px] ml-[5px]' src={linkedin}></img>
+            <img className='h-[40px] w-[40px] mr-[100px]' src={moon}></img>
+            <img className='h-[40px] w-[40px] mr-[10px]' src={mail}></img>
+            <img className='h-[40px] w-[40px] ml-[10px]' src={linkedin}></img>
         </div>
         </>
     );
 }
-export default botoesC;
+export default botoesC; 

@@ -8,15 +8,31 @@ function App() {
     <>
       <div id='Cabeçalho' className='relative'>
 
-        <div className='absolute top-[20px] left-[20px] mb-[20px]'>
+        <div className='absolute top-[20px] left-[40px] '>
           <BotoesC/>
         </div> 
 
         <div className='absolute top-[80px] left-[0px]'>
           <BarraL/>
-        </div>
+        </div>  
 
-        <div className='absolute top-[260px] right-[0px]'>
+        <div className='absolute text-center top-[160px] left-[0px] right-[0px] text-LETRA'>
+
+          <div className='text-5xl font-Inria_Sans '>
+            <p>EDUARDA PFITSCHER</p> 
+          </div>
+
+          <div className='text-4xl font-Inria_Sans_Bold mt-[35px] '> 
+            <p>Front-end Dev</p> 
+          </div>
+
+          <div className='text-3xl font-Inria_Sans mt-[1px] '> 
+            <p>"Construo soluções em código com a mesma clareza com que compartilho ideias."</p> 
+          </div>
+
+        </div>  
+
+        <div className='absolute top-[360px] right-[0px]'>
           <BarraL/>
         </div>
 
