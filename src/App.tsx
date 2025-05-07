@@ -117,7 +117,7 @@ function App() {
             <BarraLII/>
           </div>
 
-          <div className='absolute flex flex-row'>
+          <div className='relative flex flex-row'>
             <Ee1/>
             <Ee2/>
             <Ee3/>
