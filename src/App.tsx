@@ -24,6 +24,8 @@ import BarraRIII from './componentes/E&E/barraRIII'
 import Ee1 from './componentes/E&E/ee1'
 import Ee2 from './componentes/E&E/ee2'
 import Ee3 from './componentes/E&E/ee3'
+import BarraLIII from './componentes/E&E/barraLIII'
+import BarraRIV from './componentes/E&E/barraRIV'
 
 function App() {
   
@@ -117,6 +119,14 @@ function App() {
             <Ee1/>
             <Ee2/>
             <Ee3/>
+          </div>
+
+          <div className='absolute top-[1700px] right-[30px]'>
+            <BarraLIII/>
+          </div>
+
+          <div className='absolute top-[2000px] right-[0px]'>
+            <BarraRIV/>
           </div>
 
         </div>
