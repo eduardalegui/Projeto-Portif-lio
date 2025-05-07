@@ -15,6 +15,15 @@ import Tec6 from './componentes/Tecnologias/tec6'
 import Tec7 from './componentes/Tecnologias/tec7'
 import Tec8 from './componentes/Tecnologias/tec8'
 import Tec9 from './componentes/Tecnologias/tec9'
+import BarraLI from './componentes/Tecnologias/barraLI'
+import BarraR from './componentes/Tecnologias/barraR'
+
+import BarraTI from './componentes/E&E/barraTI'
+import BarraLII from './componentes/E&E/barraLII'
+import BarraRIII from './componentes/E&E/barraRIII'
+import Ee1 from './componentes/E&E/ee1'
+import Ee2 from './componentes/E&E/ee2'
+import Ee3 from './componentes/E&E/ee3'
 
 function App() {
   
@@ -69,7 +78,7 @@ function App() {
             <BarraT/>
           </div>
 
-          <div>
+          <div className='relative'>
             <Tec1/>
             <Tec2/>
             <Tec3/>
@@ -81,8 +90,34 @@ function App() {
             <Tec9/>
           </div>
 
+          <div className='absolute top-[1190px] right-[0px]'>
+            <BarraR/>
+          </div>
 
-        
+          <div className='absolute top-[1000px] right-[30px]'>
+            <BarraLI/>
+          </div>
+
+        </div>
+
+        <div id='E&E' className='relative'>
+          <div>
+            <BarraTI/>
+          </div>
+
+          <div className='absolute top-[1400px] left-[0px]'>
+            <BarraRIII/>
+          </div>  
+
+          <div className='absolute top-[1300px] left-[30px]'>
+            <BarraLII/>
+          </div>
+
+          <div className='absolute flex flex-row'>
+            <Ee1/>
+            <Ee2/>
+            <Ee3/>
+          </div>
 
         </div>
 
