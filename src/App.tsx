@@ -1,54 +1,94 @@
+import './index.css'
+
 import BarraL from './componentes/Cabeçalho/barraL'
 import BarraRI from './componentes/Cabeçalho/barraRI'
 import BarraRII from './componentes/Cabeçalho/barraRII'
 import BotoesC from './componentes/Cabeçalho/botoesC'
-import './index.css'
+
+import BarraT from './componentes/Tecnologias/barraT'
+import Tec1 from './componentes/Tecnologias/tec'
+import Tec2 from './componentes/Tecnologias/tec2'
+import Tec3 from './componentes/Tecnologias/tec3'
+import Tec4 from './componentes/Tecnologias/tec4'
+import Tec5 from './componentes/Tecnologias/tec5'
+import Tec6 from './componentes/Tecnologias/tec6'
+import Tec7 from './componentes/Tecnologias/tec7'
+import Tec8 from './componentes/Tecnologias/tec8'
+import Tec9 from './componentes/Tecnologias/tec9'
 
 function App() {
   
   return (
     <>
-      <div id='Cabeçalho' className='relative'>
-        <div className='absolute top-[40px] left-[40px] '>
-          <BotoesC/>
+      <div className='flex flex-col'>
+        <div id='Cabeçalho' className='relative'>
+          <div className='absolute top-[40px] left-[40px] '>
+           <BotoesC/>
+          </div> 
+
+          <div className='absolute top-[0px] right-[30px] '>
+            <BarraRI/>
+          </div>
+
+          <div className='absolute top-[120px] left-[0px]'>
+           <BarraL/>
+          </div>  
+
+          <div className='absolute text-center top-[200px] left-[0px] right-[0px] text-LETRA'>
+            <div className='text-[55px] font-Inria_Sans '>
+              <p>EDUARDA PFITSCHER</p> 
+            </div>
+
+            <div className='text-[35px] font-Inria_Sans_Bold mt-[10px] '> 
+              <p>Front-end Dev</p> 
+            </div>
+          
+            <div className='text-[30px] font-Inria_Sans  '> 
+              <p>"Construo soluções em código com a mesma clareza com </p> 
+            </div>
+          </div>
+
+          <div className='absolute text-center top-[380px] left-[0px] right-[0px] text-LETRA'>
+            <div className='text-[30px] font-Inria_Sans'> 
+              <p>que compartilho ideias."</p> 
+            </div>
+          </div>
+
+          <div className='absolute top-[465px] right-[0px]'>
+            <BarraL/>
+          </div>
+
+          <div className='absolute top-[385px] left-[30px] '>
+            <BarraRII/>
+          </div>
         </div> 
 
-        <div className='absolute top-[0px] right-[30px] '>
-          <BarraRI/>
-        </div>
 
-        <div className='absolute top-[120px] left-[0px]'>
-          <BarraL/>
-        </div>  
-
-        <div className='absolute text-center top-[200px] left-[0px] right-[0px] text-LETRA'>
-          <div className='text-[55px] font-Inria_Sans '>
-            <p>EDUARDA PFITSCHER</p> 
+        <div id='Tecnologias' className='relative'>
+          <div>
+            <BarraT/>
           </div>
 
-          <div className='text-[35px] font-Inria_Sans_Bold mt-[10px] '> 
-            <p>Front-end Dev</p> 
+          <div>
+            <Tec1/>
+            <Tec2/>
+            <Tec3/>
+            <Tec4/>
+            <Tec5/>
+            <Tec6/>
+            <Tec7/>
+            <Tec8/>
+            <Tec9/>
           </div>
-          
-          <div className='text-[30px] font-Inria_Sans  '> 
-            <p>"Construo soluções em código com a mesma clareza com </p> 
-          </div>
-        </div>  
 
-        <div className='absolute text-center top-[380px] left-[0px] right-[0px] text-LETRA'>
-          <div className='text-[30px] font-Inria_Sans'> 
-            <p>que compartilho ideias."</p> 
-          </div>
+
+        
+
         </div>
 
-        <div className='absolute top-[465px] right-[0px]'>
-          <BarraL/>
-        </div>
-
-        <div className='absolute top-[385px] left-[30px] '>
-          <BarraRII/>
-        </div>
       </div>
+
+
     </>
   )
 }
