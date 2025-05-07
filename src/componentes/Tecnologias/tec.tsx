@@ -18,4 +18,4 @@ function tec1(){
         </>
     );
 }
-export default tec1; 
+export default tec1;    

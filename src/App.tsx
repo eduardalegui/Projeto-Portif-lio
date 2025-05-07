@@ -27,6 +27,8 @@ import Ee3 from './componentes/E&E/ee3'
 import BarraLIII from './componentes/E&E/barraLIII'
 import BarraRIV from './componentes/E&E/barraRIV'
 
+import BarraTII from './componentes/Projetos/barraTII'
+
 function App() {
   
   return (
@@ -127,6 +129,12 @@ function App() {
 
           <div className='absolute top-[2000px] right-[0px]'>
             <BarraRIV/>
+          </div>
+        </div>
+
+        <div id='Projetos' className='relative'>
+          <div className='text-center'>
+            <BarraTII/>
           </div>
 
         </div>
