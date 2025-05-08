@@ -1,4 +1,4 @@
-import moon from '../Cabeçalho/imagens-claro/moon-modo-claro.png';
+import prisma from './imagens-tec/prisma-svgrepo-com.png'
 
 function tec9(){	
     return(
@@ -13,7 +13,7 @@ function tec9(){
             </div>
 
             <div className='absolute top-[1020px] left-[450px]'>
-                <img className='h-[120px] w-[140px]' src={moon}></img>
+                <img className='h-[120px] w-[140px] p-1' src={prisma}></img>
             </div>
 
         </>

@@ -28,6 +28,8 @@ import BarraLIII from './componentes/E&E/barraLIII'
 import BarraRIV from './componentes/E&E/barraRIV'
 
 import BarraTII from './componentes/Projetos/barraTII'
+import Projeto1 from './componentes/Projetos/projeto1'
+import Projeto2 from './componentes/Projetos/projeto2'
 
 function App() {
   
@@ -135,6 +137,14 @@ function App() {
         <div id='Projetos' className='relative'>
           <div className='text-center'>
             <BarraTII/>
+          </div>
+
+          <div>
+            <Projeto1/>
+          </div>
+
+          <div>
+            <Projeto2/>
           </div>
 
         </div>

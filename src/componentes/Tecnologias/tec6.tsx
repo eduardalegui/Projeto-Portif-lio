@@ -1,4 +1,4 @@
-import moon from '../Cabeçalho/imagens-claro/moon-modo-claro.png';
+import docker from './imagens-tec/docker-svgrepo-com.png'
 
 function tec6(){	
     return(
@@ -12,8 +12,8 @@ function tec6(){
                 <div className='h-[120px] w-[140px] bg-ROSADO' ></div>
             </div>
 
-            <div className='absolute top-[870px] left-[450px]'>
-                <img className='h-[120px] w-[140px]' src={moon}></img>
+            <div className='absolute top-[870px] left-[450px] '>
+                <img className='h-[120px] w-[140px] p-1' src={docker}></img>
             </div>
 
         </>

@@ -1,4 +1,4 @@
-import moon from '../Cabeçalho/imagens-claro/moon-modo-claro.png';
+import AGESPNB from './imagens-E&E/AGESPNB.jpg'
 function ee1(){	
     return(
         <>
@@ -15,16 +15,20 @@ function ee1(){
                 <div className='h-[200px] w-[240px] bg-LARANJA ' ></div>
             </div>
 
-            <div className='absolute top-[1510px] left-[240px]'>
-                <img className='h-[145px] w-[180px]' src={moon}></img>
+            <div className='absolute top-[1515px] left-[245px]'>
+                <img className='h-[140px] w-[170px]' src={AGESPNB}></img>
             </div>
 
             <div className='relative text-center top-[1675px] left-[210px] h-[200px] w-[240px]'>
                 <p className="text-LETRA text-[25px] font-Inria_Sans_Bold">AGES</p>
             </div>            
 
-            <div className='absolute text-row top-[1705px] left-[220px] h-[155px] w-[225px]'>
-                <p className="text-LETRA text-[20px] font-Inria_Sans">Texto</p>
+            <div className='absolute text-center top-[1695px] left-[210px] h-[200px] w-[240px]'>
+                <p className="text-LETRA text-[25px] font-Inria_Sans_Bold">Grupo de Estudos</p>
+            </div>            
+
+            <div className='absolute text-row top-[1725px] left-[220px] h-[155px] w-[225px]'>
+                <p className="text-LETRA text-[20px] font-Inria_Sans">Texto </p>
             </div>    
 
         </>

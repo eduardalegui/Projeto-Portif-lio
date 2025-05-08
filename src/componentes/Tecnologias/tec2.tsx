@@ -1,4 +1,4 @@
-import moon from '../Cabeçalho/imagens-claro/moon-modo-claro.png';
+import typescript from './imagens-tec/typescript-svgrepo-com.png'
 function tec2(){	
     return(
         <>
@@ -12,7 +12,7 @@ function tec2(){
             </div>
 
             <div className='absolute top-[720px] left-[280px]'>
-                <img className='h-[120px] w-[140px]' src={moon}></img>
+                <img className='h-[120px] w-[140px] p-1' src={typescript}></img>
             </div>
 
         </>

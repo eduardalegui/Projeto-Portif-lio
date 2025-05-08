@@ -1,4 +1,4 @@
-import moon from '../Cabeçalho/imagens-claro/moon-modo-claro.png';
+import PUCRS from './imagens-E&E/PUCRS.png'
 function ee2(){	
     return(
         <>
@@ -11,12 +11,16 @@ function ee2(){
                 <div className='h-[150px] w-[180px] bg-LARANJA' ></div>
             </div>      
 
+            <div className='absolute top-[1515px] left-[590px]'>
+                <div className='h-[140px] w-[170px] bg-amber-50' ></div>
+            </div>      
+
             <div className='absolute top-[1670px] left-[555px]'>
                 <div className='h-[200px] w-[240px] bg-LARANJA ' ></div>
             </div>
 
-            <div className='absolute top-[1510px] left-[585px]'>
-                <img className='h-[145px] w-[180px]' src={moon}></img>
+            <div className='absolute top-[1515px] left-[590px]'>
+                <img className='h-[140px] w-[170px]' src={PUCRS}></img>
             </div>
 
             <div className='relative text-center top-[1675px] left-[315px] h-[200px] w-[240px]'>

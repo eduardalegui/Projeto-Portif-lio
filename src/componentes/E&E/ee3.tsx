@@ -1,4 +1,4 @@
-import moon from '../Cabeçalho/imagens-claro/moon-modo-claro.png';
+import PRETO from './imagens-E&E/PRETO.jpg'
 function ee3(){	
     return(
         <>
@@ -15,8 +15,8 @@ function ee3(){
                 <div className='h-[200px] w-[240px] bg-LARANJA ' ></div>
             </div>
 
-            <div className='absolute top-[1510px] left-[935px]'>
-                <img className='h-[145px] w-[180px]' src={moon}></img>
+            <div className='absolute top-[1515px] left-[940px]'>
+                <img className='h-[140px] w-[170px]' src={PRETO}></img>
             </div>
 
             <div className='relative text-center top-[1675px] left-[425px] h-[200px] w-[240px]'>

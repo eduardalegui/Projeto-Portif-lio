@@ -1,4 +1,4 @@
-import moon from '../Cabeçalho/imagens-claro/moon-modo-claro.png';
+import react from './imagens-tec/react-svgrepo-com.png'
 
 function tec7(){	
     return(
@@ -13,7 +13,7 @@ function tec7(){
             </div>
 
             <div className='absolute top-[1020px] left-[110px]'>
-                <img className='h-[120px] w-[140px]' src={moon}></img>
+                <img className='h-[120px] w-[140px]' src={react}></img>
             </div>
 
         </>

@@ -1,4 +1,4 @@
-import moon from '../Cabeçalho/imagens-claro/moon-modo-claro.png';
+import javascript from './imagens-tec/javascript-155-svgrepo-com.png'
 function tec1(){	
     return(
         <>
@@ -12,7 +12,7 @@ function tec1(){
             </div>
 
             <div className='absolute top-[720px] left-[110px]'>
-                <img className='h-[120px] w-[140px]' src={moon}></img>
+                <img className='h-[120px] w-[140px] p-1' src={javascript}></img>
             </div>
 
         </>

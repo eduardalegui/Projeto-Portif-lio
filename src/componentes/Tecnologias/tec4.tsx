@@ -1,4 +1,4 @@
-import moon from '../Cabeçalho/imagens-claro/moon-modo-claro.png';
+import git from './imagens-tec/git-svgrepo-com.png'
 
 function tec4(){	
     return(
@@ -13,7 +13,7 @@ function tec4(){
             </div>
 
             <div className='absolute top-[870px] left-[110px]'>
-                <img className='h-[120px] w-[140px]' src={moon}></img>
+                <img className='h-[120px] w-[140px] p-1' src={git}></img>
             </div>
 
         </>

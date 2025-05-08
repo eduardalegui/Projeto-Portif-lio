@@ -1,4 +1,4 @@
-import moon from '../Cabeçalho/imagens-claro/moon-modo-claro.png';
+import tailwind from './imagens-tec/tailwind-css-svgrepo-com.png'
 
 function tec8(){	
     return(
@@ -13,7 +13,7 @@ function tec8(){
             </div>
 
             <div className='absolute top-[1020px] left-[280px]'>
-                <img className='h-[120px] w-[140px]' src={moon}></img>
+                <img className='h-[120px] w-[140px]' src={tailwind}></img>
             </div>
 
         </>
