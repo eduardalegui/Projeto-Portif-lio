@@ -1,4 +1,4 @@
-import java from './imagens-tec/java-svgrepo-com.png'
+
 function tec3(){	
     return(
         <>
@@ -9,10 +9,6 @@ function tec3(){
 
             <div className='absolute top-[720px] left-[450px]'>
                 <div className='h-[120px] w-[140px] bg-ROSADO' ></div>
-            </div>
-
-            <div className='absolute top-[720px] left-[450px]'>
-                <img className='h-[120px] w-[140px] p-2' src={java}></img>
             </div>
 
         </>

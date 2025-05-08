@@ -1,4 +1,3 @@
-import tailwind from './imagens-tec/tailwind-css-svgrepo-com.png'
 
 function tec8(){	
     return(
@@ -10,10 +9,6 @@ function tec8(){
 
             <div className='absolute top-[1020px] left-[280px]'>
                 <div className='h-[120px] w-[140px] bg-ROSADO' ></div>
-            </div>
-
-            <div className='absolute top-[1020px] left-[280px]'>
-                <img className='h-[120px] w-[140px]' src={tailwind}></img>
             </div>
 
         </>

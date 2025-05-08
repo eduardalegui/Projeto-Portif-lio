@@ -1,4 +1,3 @@
-import docker from './imagens-tec/docker-svgrepo-com.png'
 
 function tec6(){	
     return(
@@ -10,10 +9,6 @@ function tec6(){
 
             <div className='absolute top-[870px] left-[450px]'>
                 <div className='h-[120px] w-[140px] bg-ROSADO' ></div>
-            </div>
-
-            <div className='absolute top-[870px] left-[450px] '>
-                <img className='h-[120px] w-[140px] p-1' src={docker}></img>
             </div>
 
         </>

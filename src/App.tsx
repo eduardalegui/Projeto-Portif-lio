@@ -17,6 +17,8 @@ import Tec8 from './componentes/Tecnologias/tec8'
 import Tec9 from './componentes/Tecnologias/tec9'
 import BarraLI from './componentes/Tecnologias/barraLI'
 import BarraR from './componentes/Tecnologias/barraR'
+import TecnoD from './componentes/Tecnologias/tecnoD'
+import BarraDT from './componentes/Tecnologias/barraDT'
 
 import BarraTI from './componentes/E&E/barraTI'
 import BarraLII from './componentes/E&E/barraLII'
@@ -94,6 +96,14 @@ function App() {
             <Tec7/>
             <Tec8/>
             <Tec9/>
+          </div>
+
+          <div>
+            <BarraDT/>
+          </div>
+
+          <div className= 'relative'>
+            <TecnoD/>
           </div>
 
           <div className='absolute top-[1190px] right-[0px]'>

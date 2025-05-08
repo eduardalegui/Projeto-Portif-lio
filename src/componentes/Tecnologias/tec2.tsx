@@ -1,4 +1,4 @@
-import typescript from './imagens-tec/typescript-svgrepo-com.png'
+
 function tec2(){	
     return(
         <>
@@ -9,10 +9,6 @@ function tec2(){
 
             <div className='absolute top-[720px] left-[280px]'>
                 <div className='h-[120px] w-[140px] bg-ROSADO' ></div>
-            </div>
-
-            <div className='absolute top-[720px] left-[280px]'>
-                <img className='h-[120px] w-[140px] p-1' src={typescript}></img>
             </div>
 
         </>

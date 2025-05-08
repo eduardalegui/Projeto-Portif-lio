@@ -1,4 +1,3 @@
-import react from './imagens-tec/react-svgrepo-com.png'
 
 function tec7(){	
     return(
@@ -10,10 +9,6 @@ function tec7(){
 
             <div className='absolute top-[1020px] left-[110px]'>
                 <div className='h-[120px] w-[140px] bg-ROSADO' ></div>
-            </div>
-
-            <div className='absolute top-[1020px] left-[110px]'>
-                <img className='h-[120px] w-[140px]' src={react}></img>
             </div>
 
         </>

@@ -1,4 +1,4 @@
-import javascript from './imagens-tec/javascript-155-svgrepo-com.png'
+
 function tec1(){	
     return(
         <>
@@ -9,10 +9,6 @@ function tec1(){
 
             <div className='absolute top-[720px] left-[110px]'>
                 <div className='h-[120px] w-[140px] bg-ROSADO' ></div>
-            </div>
-
-            <div className='absolute top-[720px] left-[110px]'>
-                <img className='h-[120px] w-[140px] p-1' src={javascript}></img>
             </div>
 
         </>

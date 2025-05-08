@@ -1,4 +1,3 @@
-import git from './imagens-tec/git-svgrepo-com.png'
 
 function tec4(){	
     return(
@@ -10,10 +9,6 @@ function tec4(){
 
             <div className='absolute top-[870px] left-[110px]'>
                 <div className='h-[120px] w-[140px] bg-ROSADO' ></div>
-            </div>
-
-            <div className='absolute top-[870px] left-[110px]'>
-                <img className='h-[120px] w-[140px] p-1' src={git}></img>
             </div>
 
         </>

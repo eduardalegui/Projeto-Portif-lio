@@ -1,4 +1,3 @@
-import prisma from './imagens-tec/prisma-svgrepo-com.png'
 
 function tec9(){	
     return(
@@ -10,10 +9,6 @@ function tec9(){
 
             <div className='absolute top-[1020px] left-[450px]'>
                 <div className='h-[120px] w-[140px] bg-ROSADO' ></div>
-            </div>
-
-            <div className='absolute top-[1020px] left-[450px]'>
-                <img className='h-[120px] w-[140px] p-1' src={prisma}></img>
             </div>
 
         </>

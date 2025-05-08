@@ -20,7 +20,7 @@ function projeto1(){
             </div>
 
             <div className='relative text-center top-[2005px] left-[320px] h-[200px] w-[240px]'>
-                <p className="text-LETRA text-[25px] font-Inria_Sans_Bold">AGES</p>
+                <p className='text-LETRA text-[25px] font-Inria_Sans_Bold'>AGES</p>
             </div>            
 
            
