@@ -1,8 +1,8 @@
-import AGESPNB from '../E&E/imagens-E&E/AGESPNB.jpg'
+import moeda from './moeda.png'
 function projeto2(){	
     return(
         <>
-            <a href="https://github.com/eduardalegui/Moeda3" target='_blank'>  
+            <a href="https://moeda3-eduardaleguis-projects.vercel.app/" target='_blank'>  
                 <div className='absolute top-[1970px] left-[730px] '>
                     <div className='h-[340px] w-[340px] bg-ROSADO ' ></div>
                 </div>
@@ -16,7 +16,7 @@ function projeto2(){
                 </div>
 
                 <div className='absolute top-[2065px] left-[775px]'>
-                    <img className='h-[210px] w-[250px]' src={AGESPNB}></img>
+                    <img className='h-[210px] w-[250px]' src={moeda}></img>
                 </div>
 
                 <div className='relative text-center top-[1805px] left-[780px] h-[200px] w-[240px]'>

@@ -24,7 +24,7 @@ function ee3(){
             </div>            
 
             <div className='absolute text-row top-[1705px] left-[915px] h-[155px] w-[225px]'>
-                <p className="text-LETRA text-[20px] font-Inria_Sans">Texto</p>
+                <p className="text-LETRA text-[20px] font-Inria_Sans">...</p>
             </div>    
 
         </>
