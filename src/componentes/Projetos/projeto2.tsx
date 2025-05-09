@@ -2,7 +2,8 @@ import moeda from './moeda.png'
 function projeto2(){	
     return(
         <>
-            <a href="https://moeda3-eduardaleguis-projects.vercel.app/" target='_blank'>  
+            <a className= 'absolute' href="https://moeda3-eduardaleguis-projects.vercel.app/" target='_blank'>  
+
                 <div className='absolute top-[1970px] left-[730px] '>
                     <div className='h-[340px] w-[340px] bg-ROSADO ' ></div>
                 </div>
@@ -15,13 +16,14 @@ function projeto2(){
                     <div className='h-[220px] w-[260px] bg-LARANJA ' ></div>
                 </div>
 
-                <div className='absolute top-[2065px] left-[775px]'>
-                    <img className='h-[210px] w-[250px]' src={moeda}></img>
-                </div>
-
-                <div className='relative text-center top-[1805px] left-[780px] h-[200px] w-[240px]'>
+                <div className='relative text-center top-[2005px] left-[780px] h-[200px] w-[240px]'>
                     <p className="text-LETRA text-[25px] font-Inria_Sans_Bold">CONVERSOR</p>
                 </div>            
+
+                <div className='relative top-[1865px] left-[775px]'>
+                    <img className='h-[210px] w-[250px]' src={moeda}></img>
+                </div>
+       
             </a>   
            
 
