@@ -4,6 +4,10 @@ import BarraL from './componentes/Cabeçalho/barraL'
 import BarraRI from './componentes/Cabeçalho/barraRI'
 import BarraRII from './componentes/Cabeçalho/barraRII'
 import BotoesC from './componentes/Cabeçalho/botoesC'
+import linkedin from './componentes/Cabeçalho/imagens-claro/linkedin-modo-claro.png'
+import mail from './componentes/Cabeçalho/imagens-claro/mail-modo-claro.png'
+import github from './componentes/Cabeçalho/imagens-claro/github-142-svgrepo-com.png'
+
 
 import BarraT from './componentes/Tecnologias/barraT'
 import Tec1 from './componentes/Tecnologias/tec'
@@ -35,14 +39,28 @@ import Projeto2 from './componentes/Projetos/projeto2'
 import BarraLIV from './componentes/Projetos/barraLIV'
 import BarraRV from './componentes/Projetos/barraRV'
 
+
+
 function App() {
   
   return (
     <>
       <div className='flex flex-col'>
-        <div id='Cabeçalho' className='relative'>
+        <div id='Cabeçalho' className=''>
           <div className='absolute top-[40px] left-[40px] '>
-           <BotoesC/>
+          <div className='flex flex-row'>
+            <a className=''href="https://github.com/eduardalegui?tab=repositories" target='_blank'>
+                <img className='h-[40px] w-[40px] mr-[80px]' src={github}></img>
+            </a>
+
+            <a href="">
+                <img className='h-[40px] w-[40px] mr-[20px]' src={mail}></img>
+            </a>
+
+            <a href="mailto:eduardaleguisamo100506@gmail.com" target='_blank'>
+                <img className='h-[40px] w-[40px] ml-[20px]' src={linkedin}></img>
+            </a>
+        </div>
           </div> 
 
           <div className='absolute top-[0px] right-[30px] '>
@@ -83,7 +101,7 @@ function App() {
         </div> 
 
 
-        <div id='Tecnologias' className='relative'>
+        <div id='Tecnologias' className=''>
           <div>
             <BarraT/>
           </div>
@@ -118,7 +136,7 @@ function App() {
 
         </div>
 
-        <div id='E&E' className='relative'>
+        <div id='E&E' className=''>
           <div>
             <BarraTI/>
           </div>
