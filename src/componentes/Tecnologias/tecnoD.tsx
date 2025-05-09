@@ -25,26 +25,26 @@ function tecnoD(){
             src: javascript,
             alt: "Imagem",
             title: "Javascript",
-            description: "descrição1",
+            description: "JavaScript é uma linguagem usada para criar pá-ginas web interativas com animações, validações e conteúdo dinâmico no navegador.",
         };
    
-        const images: Imageprops[ ] = [ 
-            { src: javascript, alt: "Javascript imagem", title:"Javascript", description: "descrição1"},
-            { src: typescript, alt: "Typescript imagem", title:"Typescript", description: "descrição2"},
-            { src: java, alt: "Java imagem", title:"Java", description: "descrição3"},
-            { src: git, alt: "Git imagem", title:"Git", description: "descrição4" },
-            { src: node, alt: "Node imagem", title:"Node", description: "descrição5" }, 
-            { src: docker, alt: "Docker imagem", title:"Docker", description: "descrição6" }, 
-            { src: react, alt: "React imagem", title:"React", description: "descrição7" }, 
-            { src: tailwind, alt: "Tailwind imagem", title:"Tailwind", description: "descrição8" },
-            { src: prisma, alt: "Prisma imagem", title:"Prisma", description: "descrição9" }, 
+        const images: Imageprops[ ] = [     
+            { src: javascript, alt: "Javascript imagem", title:"Javascript", description: "JavaScript é uma linguagem usada para criar pá-ginas web interativas com animações, validações e conteúdo dinâmico no navegador."},
+            { src: typescript, alt: "Typescript imagem", title:"Typescript", description: "TypeScript é uma linguagem que adiciona tipos ao JavaScript, tornando o código mais seguro e organizado."},
+            { src: java, alt: "Java imagem", title:"Java", description: "Java é uma linguagem orientada a objetos, usada para criar aplicações portáteis e escaláveis."},
+            { src: git, alt: "Git imagem", title:"Git", description: "Git é um sistema de controle de versão que per- mite gerenciar mudanças no código, facilitando o trabalho em equipe e o histórico de alterações." },
+            { src: node, alt: "Node.js imagem", title:"Node.js", description: "Node.js é uma plataforma que permite rodar JavaScript fora do navegador, usada para criar servidores e aplicações web rápidas e escaláveis." }, 
+            { src: docker, alt: "Docker imagem", title:"Docker", description: "Docker é uma plataforma que empacota apps em contêineres para rodar igual em qualquer ambiente." }, 
+            { src: react, alt: "React imagem", title:"React", description: "React é uma biblioteca JavaScript usada para cri- ar interfaces de usuário de forma rápida e efici- ente, com foco em componentes reutilizáveis." }, 
+            { src: tailwind, alt: "Tailwind imagem", title:"Tailwind", description: "Tailwind é um framework CSS que usa classes prontas para criar interfaces modernas direto no HTML." },
+            { src: prisma, alt: "Prisma imagem", title:"Prisma", description: "Prisma é um ORM para Node.js que facilita o acesso ao banco de dados com consultas seguras, automáticas e tipadas." }, 
         ]
    
     return(
         <>
    
-            <div className='relative'> 
-                <div className='absolute top-[719px] left-[110px] grid grid-cols-3 gap-[31px]'>
+            <div className='absolute'> 
+                <div className='relative top-[719px] left-[110px] grid grid-cols-3 gap-[31px]'>
                     {images.map((image, index) =>( 
                     <img
                     key={index}
@@ -56,18 +56,18 @@ function tecnoD(){
                 </div>
                 
                 {selectedImage && (
-                    <div className='absolute h-[380px] w-[500px] top-[780px] left-[830px]'>
-                        <img src={selectedImage.src} alt={selectedImage.alt} className='top-[780px] left-[830px] h-[140px] w-[160px]' /> 
-                        <p className='text-LETRA text-[35px] font-Inria_Sans_Bold'>{selectedImage.title}</p> 
-                        <p className='text-LETRA text-[25px] font-Inria_Sans'>{selectedImage.description}</p> 
+                    <div className='relative h-[0px] w-[462px] top-[358px]'>
+                        <img src={selectedImage.src} alt={selectedImage.alt} className='relative top-[0px] left-[830px] h-[140px] w-[160px]' /> 
+                        <p className='relative left-[830px] text-LETRA text-[35px] font-Inria_Sans_Bold mt-[8px] justify-center'>{selectedImage.title}</p> 
+                        <p className='relative left-[678px] text-LETRA text-[22px] font-Inria_Sans mt-[10px]'>{selectedImage.description}</p> 
                     </div> 
                 )}
                 {!selectedImage &&( 
-                    <div className='absolute h-[380px] w-[500px] top-[780px] left-[830px]'> 
+                    <div className='relative h-[0px] w-[462px] top-[358px]'> 
                     
-                            <img src={defaultImage.src} alt={defaultImage.alt} className=' top-[780px] left-[830px] h-[140px] w-[160px]' /> 
-                            <p className='text-LETRA text-[35px] font-Inria_Sans_Bold'>{defaultImage.title}</p>
-                            <p className='text-LETRA text-[25px] font-Inria_Sans'>{defaultImage.description}</p>  
+                            <img src={defaultImage.src} alt={defaultImage.alt} className='relative top-[0px] left-[830px] h-[140px] w-[160px]' /> 
+                            <p className='relative left-[830px] text-LETRA text-[35px] font-Inria_Sans_Bold mt-[8px] justify-center'>{defaultImage.title}</p>
+                            <p className=' relative left-[678px] text-LETRA text-[22px] font-Inria_Sans mt-[10px]'>{defaultImage.description}</p>  
 
                     </div>
                 )}

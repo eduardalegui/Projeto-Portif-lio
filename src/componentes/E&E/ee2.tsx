@@ -28,7 +28,7 @@ function ee2(){
             </div>            
 
             <div className='absolute text-row top-[1705px] left-[565px] h-[155px] w-[225px]'>
-                <p className="text-LETRA text-[20px] font-Inria_Sans">Texto</p>
+                <p className="text-LETRA text-[18px] font-Inria_Sans">A PUCRS é uma universidade católica de Porto Alegre, reconhecida pela excelência acadêmica e pela infraestru- tura como o Tecnopuc e o Hospital São Lucas.</p>
             </div>                
 
 

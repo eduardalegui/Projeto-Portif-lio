@@ -32,6 +32,8 @@ import BarraRIV from './componentes/E&E/barraRIV'
 import BarraTII from './componentes/Projetos/barraTII'
 import Projeto1 from './componentes/Projetos/projeto1'
 import Projeto2 from './componentes/Projetos/projeto2'
+import BarraLIV from './componentes/Projetos/barraLIV'
+import BarraRV from './componentes/Projetos/barraRV'
 
 function App() {
   
@@ -155,6 +157,14 @@ function App() {
 
           <div>
             <Projeto2/>
+          </div>
+
+          <div className='absolute top-[2190px] left-[30px]'>
+            <BarraLIV/>
+          </div>
+
+          <div className='absolute top-[2400px] left-[0px]'>
+            <BarraRV/>
           </div>
 
         </div>

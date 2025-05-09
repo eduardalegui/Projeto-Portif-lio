@@ -28,7 +28,7 @@ function ee1(){
             </div>            
 
             <div className='absolute text-row top-[1725px] left-[220px] h-[155px] w-[225px]'>
-                <p className="text-LETRA text-[20px] font-Inria_Sans">Texto </p>
+                <p className="text-LETRA text-[20px] font-Inria_Sans">Iniciativa da Preto no Branco com a Ages para garantir experiência prá- tica em desenvolvimento de software aos alunos.</p>
             </div>    
 
         </>
