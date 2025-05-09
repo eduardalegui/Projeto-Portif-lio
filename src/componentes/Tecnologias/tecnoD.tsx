@@ -44,7 +44,7 @@ function tecnoD(){
         <>
    
             <div className='absolute'> 
-                <div className='relative top-[660px] left-[110px] grid grid-cols-3 gap-[31px]'>
+                <div className='relative top-[660px] left-[110px] grid grid-cols-3 gap-[31px] h-[0px] w-[482px]'>
                     {images.map((image, index) =>( 
                     <img
                     key={index}
@@ -56,20 +56,26 @@ function tecnoD(){
                 </div>
                 
                 {selectedImage && (
-                    <div className='relative h-[0px] w-[462px] top-[298px]'>
-                        <img src={selectedImage.src} alt={selectedImage.alt} className='relative top-[0px] left-[830px] h-[140px] w-[160px]' /> 
-                        <p className='relative left-[830px] text-LETRA text-[35px] font-Inria_Sans_Bold mt-[8px] justify-center'>{selectedImage.title}</p> 
-                        <p className='relative left-[678px] text-LETRA text-[22px] font-Inria_Sans mt-[10px]'>{selectedImage.description}</p> 
+                    <div className='absolute  top-[720px] left-[680px] h-[360px] w-[480px]'>
+                        <div className='absolute flex-row justify-items-center  h-[180px] w-[460px] '>
+                            <img src={selectedImage.src} alt={selectedImage.alt} className='top-[0px]  h-[140px] w-[160px]' /> 
+                            <p className='relative text-center text-LETRA text-[35px] font-Inria_Sans_Bold mt-[5px] justify-center'>{selectedImage.title}</p> 
+                        </div>
+                        <p className='absolute top-[190px] h-[20px] w-[462px] text-LETRA text-[22px] font-Inria_Sans mt-[10px]'>{selectedImage.description}</p> 
                     </div> 
                 )}
                 {!selectedImage &&( 
-                    <div className='relative h-[0px] w-[462px] top-[298px]'> 
-                    
-                            <img src={defaultImage.src} alt={defaultImage.alt} className='relative top-[0px] left-[830px] h-[140px] w-[160px]' /> 
-                            <p className='relative left-[830px] text-LETRA text-[35px] font-Inria_Sans_Bold mt-[8px] justify-center'>{defaultImage.title}</p>
-                            <p className=' relative left-[678px] text-LETRA text-[22px] font-Inria_Sans mt-[10px]'>{defaultImage.description}</p>  
-
+                    <div className='absolute  top-[720px] left-[680px] h-[360px] w-[480px]'> 
+                        <div className='absolute flex-row justify-items-center  h-[180px] w-[460px] '>
+                            <img src={defaultImage.src} alt={defaultImage.alt} className='top-[0px]  h-[140px] w-[160px]' /> 
+                            <p className='relative text-center text-LETRA text-[35px] font-Inria_Sans_Bold mt-[5px] justify-center'>{defaultImage.title}</p>
+                        </div>
+                        <p className='absolute top-[190px] h-[20px] w-[462px] text-LETRA text-[22px] font-Inria_Sans mt-[10px]'>{defaultImage.description}</p>  
+                        
                     </div>
+                                // <div className='absolute top-[770px] left-[670px]'>
+                                //     <div className='h-[360px] w-[480px] bg-LARANJA ' ></div>
+                                // </div>
                 )}
             </div>
          

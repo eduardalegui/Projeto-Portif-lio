@@ -9,13 +9,9 @@ function barraDT(){
                 <div className='h-[360px] w-[480px] bg-LARANJA ' ></div>
             </div>
 
-            <div className='absolute top-[950px] left-[825px]'>
-                <div className='h-[50px] w-[170px] bg-ROSADO' ></div>
-            </div>      
 
-            <div className='absolute top-[795px] left-[825px]'>
-                <div className='h-[150px] w-[170px] bg-ROSADO' ></div>
-            </div>      
+
+           
 
         </>
     );
