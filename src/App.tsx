@@ -39,7 +39,7 @@ function App() {
   
   return (
     <>
-      <div className='flex flex-col'>
+      <div className=''>
         <div id='Cabeçalho' >
 
           <div className=''>
@@ -119,7 +119,7 @@ function App() {
 
         </div>
 
-        <div id='E&E' >
+        <div id='E&E'  >
           <div>
             <BarraTI/>
           </div>
@@ -152,19 +152,19 @@ function App() {
             <BarraTII/>
           </div>
 
-          <div>
+          <div className='absolute top-[2250px]'>
             <Projeto1/>
           </div>
 
-          <div>
+          <div className='absolute top-[2250px]'>
             <Projeto2/>
           </div>
 
-          <div className='absolute top-[2190px] left-[30px]'>
+          <div className='absolute top-[2470px] left-[30px]'>
             <BarraLIV/>
           </div>
 
-          <div className='absolute top-[2400px] left-[0px]'>
+          <div className='absolute top-[2680px] left-[0px]'>
             <BarraRV/>
           </div>
 
