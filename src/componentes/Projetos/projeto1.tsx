@@ -1,8 +1,8 @@
-import AGESPNB from '../E&E/imagens-E&E/AGESPNB.jpg'
+import calculadora from './calculadora.png'
 function projeto1(){	
     return(
         <>
-            <a href="https://github.com/eduardalegui/ProjetoCalculadora" target='_blank'>
+            <a href="https://projeto-calculadora-xdnu.vercel.app/" target='_blank'>
                 <div className='absolute top-[1970px] left-[270px] '>
                     <div className='h-[340px] w-[340px] bg-ROSADO ' ></div>
                 </div>
@@ -16,7 +16,7 @@ function projeto1(){
                 </div>
 
                 <div className='absolute top-[2065px] left-[315px]'>
-                    <img className='h-[210px] w-[250px]' src={AGESPNB}></img>
+                    <img className='h-[210px] w-[250px]' src={calculadora}></img>
                 </div>
 
                 <div className='relative text-center top-[2005px] left-[320px] h-[200px] w-[240px]'>
