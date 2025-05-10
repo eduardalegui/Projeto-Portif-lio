@@ -71,25 +71,25 @@ function projeto1(){
     return(
         <>
             <div className= ''>
-                <a className= '' href="https://projeto-calculadora-xdnu.vercel.app/" target='_blank'>
+                <a className= 'absolute left-[300px]' href="https://projeto-calculadora-xdnu.vercel.app/" target='_blank'>
 
-                    <div className='absolute top-[] left-[270px] '>
+                    <div className='absolute top-[] left-[0px] '>
                         <div className='h-[340px] w-[340px] bg-ROSADO ' ></div>
                     </div>
 
-                    <div className='absolute top-[30px] left-[350px]'>
+                    <div className='absolute top-[30px] left-[80px]'>
                         <div className='h-[50px] w-[180px] bg-LARANJA' ></div>
                     </div>      
 
-                    <div className='absolute top-[90px] left-[310px]'>
+                    <div className='absolute top-[90px] left-[40px]'>
                         <div className='h-[220px] w-[260px] bg-LARANJA ' ></div>
                     </div>
 
-                    <div className='relative text-center top-[35px] left-[320px] h-[px] w-[240px]'>
+                    <div className='relative text-center top-[35px] left-[50px] h-[px] w-[240px]'>
                         <p className='text-LETRA text-[25px] font-Inria_Sans_Bold'>CALCULADORA</p>
                     </div>            
 
-                    <div className='relative top-[57px] left-[315px]'>
+                    <div className='relative top-[57px] left-[50px]'>
                         <img className='h-[210px] w-[250px]' src={calculadora}></img>
                     </div>
                 </a>
